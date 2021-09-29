@@ -26,3 +26,27 @@
 .Card.Red .Content {
   background-color: #f44336;
 }
+
+.Card.Blue .Header {
+  color: #fff;
+  background-color: #0434b8;
+}
+.Card.Blue .Content {
+  background-color: #08b0fd;
+}
+
+.Card.Green .Header {
+  color: #fff;
+  background-color: #0b8300;
+}
+.Card.Green .Content {
+  background-color: #66f507;
+}
+
+.Card.Purple .Header {
+  color: #fff;
+  background-color: #660285;
+}
+.Card.Purple .Content {
+  background-color: #cc00ff;
+}

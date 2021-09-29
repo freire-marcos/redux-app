@@ -1,19 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import Card from './Components/Card/Card';
+import Media from './Components/Media/Media';
+import Soma from './Components/Soma/Soma';
+import Sorteio from './Components/Sorteio/Sorteio';
+import Intervalo from './Components/Intervalo/Intervalo';
 
 function App() {
   return (
     <div className="App">
       <h2>Exercício redux</h2>
       <div className="linha">
-        <Card titulo="Card 1" red />
+        <Intervalo></Intervalo>
       </div>
       <div className="linha">
-        <Card titulo="Card 2" blue />
-      </div>
-      <div className="linha">
-        <Card titulo="Card 2" blue />
+        <Media />
+        <Soma />
+        <Sorteio />
       </div>
     </div>
   );
